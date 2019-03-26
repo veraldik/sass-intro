@@ -1,0 +1,114 @@
+@import"_variables";
+
+body {
+  margin: $margin-base;
+  background-color: lighten($color2 , 10%);
+  font-family: $serif-fonts;
+  color: $color5;
+}
+
+a {
+  margin: $margin-small;
+  text-decoration: none;
+  font-size: $font-base-size;
+  color: $color4;
+  background-color: $color2;
+  padding: $padding-base;
+  border: $border;
+  border-radius: $border-radius;
+}
+
+h1 {
+  margin-left: $margin-small * 6;
+  font-size: $font-base-size * 2;
+  color: lighten($color5,60%);
+}
+
+h2 {
+  margin-left: $margin-small * 8;
+  font-size: $font-base-size * 1.75;
+  color: lighten($color5, 50%);
+}
+
+h3 {
+  margin-left: $margin-small *9;
+  font-size: $font-base-size * 1.50;
+  color: lighten($color5, 40%);
+}
+
+h4 {
+  margin-left: $margin-small * 12;
+  font-size: $font-base-size * 1.25;
+  color: lighten($color5, 30%);
+}
+
+h5 {
+  margin-left: $margin-small * 14;
+  font-size: $font-base-size * 1;
+  color: lighten($color5, 20%);
+}
+
+h6 {
+  margin-left: $margin-small *17;
+  font-size: $font-base-size * .75;
+  color: lighten($color5, 10%);
+}
+
+p {
+  font-size: $font-base-size;
+  padding: $padding-base;
+}
+
+input,textarea {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * .75;
+  color: $color2;
+  border: $border;
+  border-radius: $border-radius;
+  padding: $padding-base *2;
+}
+
+label {
+  background-color: $color4;
+  padding: $padding-base;
+  color: $color2;
+  border: $border;
+  border-radius: $border-radius;
+
+}
+
+figure {
+  color: $color3;
+  font-size: $font-base-size;
+  margin: $margin-base;
+  padding: $padding-base *15;
+
+  img {
+    width:100%;
+    border: $border;
+    border-radius: $border-radius;
+  }
+  
+  figcaption {
+    text-align:center;
+  }
+}
+
+table {
+  background: lighten($color3,10%);
+  text-align:center;
+  margin-left: $margin-small *10;
+  margin-bottom: $margin-small *10;
+  padding: $padding-base;
+  border: $border;
+  border-radius: $border-radius;
+
+  th {
+    font-size: $font-base-size;
+    padding: $padding-base *2;
+  }
+
+  td {
+    padding: $padding-base;
+  }
+}
